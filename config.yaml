@@ -1,0 +1,10 @@
+llm:
+  deepseek_v3:
+    base_url: https://api.example.com/v1/
+    api_keys:
+      - sk-aaa...
+      - sk-bbb...
+      - sk-ccc...
+    model: example/model
+    temperature: 0.7
+    # other configs
