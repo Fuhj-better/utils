@@ -1,0 +1,7 @@
+{
+  "app_name": "MyApp",
+  "debug": false,
+  "database_url": "sqlite:///./prod.db",
+  "api_key": "prod_api_key",
+  "max_workers": 4
+}

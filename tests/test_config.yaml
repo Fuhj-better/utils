@@ -1,0 +1,27 @@
+# Example configuration file for testing
+
+app:
+  name: "MyApp"
+  version: "1.0.0"
+  debug: false
+
+database:
+  host: "localhost"
+  port: 5432
+  username: "user"
+  password: "pass"
+  name: "mydb"
+
+api:
+  base_url: "https://api.example.com"
+  timeout: 30
+
+features:
+  - "feature_a"
+  - "feature_b"
+  - "feature_c"
+
+nested:
+  level1:
+    level2:
+      value: "nested_value"
